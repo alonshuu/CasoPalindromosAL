@@ -10,8 +10,6 @@ public class Main {
     }
 
 
-
-
     public static boolean esPalindromo(String palabra){
 
         char[] caracteres = palabra.toCharArray();
