@@ -11,8 +11,20 @@ public class Main {
 
 
     public static boolean esPalindromo(String palabra){
+        if (palabra.isEmpty()){
+            return false;
+        }
 
-        char[] caracteres = palabra.toCharArray();
+        String lowercase = palabra.replaceAll("\\s+","").toLowerCase();
+
+        if (lowercase.isEmpty()){
+            return false;
+        }
+
+
+
+
+        char[] caracteres = lowercase.toCharArray();
         char[] invertido = new char[caracteres.length];
         for (int i = 0; i < caracteres.length; i++){
             invertido[i] = caracteres[caracteres.length - 1 - i];
@@ -20,7 +32,7 @@ public class Main {
 
         String resultado = new String(invertido);
 
-        if (resultado.equals(palabra)){
+        if (resultado.equals(lowercase)){
             return true;
         } else {
             return false;
