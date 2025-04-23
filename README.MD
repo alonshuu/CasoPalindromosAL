@@ -1,6 +1,8 @@
 # CASO PALINDROMOS
 ### Alonso lagos
 
+### ÍTEM 1 ###
+
 **¿Qué es un palíndromo?** Un palíndromo consiste en una palabra o frase, que es igual al revés que su forma estandar.
 
 **Código**:
@@ -24,4 +26,14 @@ _}_
 Si colocamos la palabra **_nada_** primero utilizará la funcion para separar cada uno de los elementos de la string, en este caso n a d a, para luego reordenarlos de forma inversa _a n d a_   y unirlos, para finalizar verrifica si estos dos elementos son iguales, en este caso como no son nos devolverá un false. 
 
 
+### ÍTEM 2 ###
 
+Revisar el código creado en el proyecto.
+
+### ÍTEM 3 ###
+
+Las pruebas seleccionadas para este caso, es ir probando primero si el programa funciona con distintos tipos de inputs, en este caso es obvio que no, ya que el programa solo toma como entrada Strings, por lo tanto si se le ingresa un entero, el método tendria una excepción.
+
+Ahora relacionado directamente con el funcionamiento del programa, el programa no tomará en cuenta correctamente cuando se trate con frases, ya sean con mayúsculas o con espacios.
+
+Por lo tanto construyendo las primeras pruebas:

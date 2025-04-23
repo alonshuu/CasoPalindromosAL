@@ -6,7 +6,7 @@ public class Main {
 
 
     public static void main(String[] args){
-        System.out.println(esPalindromo("anita lava la tina"));
+        System.out.println(esPalindromo("aca"));
     }
 
 
